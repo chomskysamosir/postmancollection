@@ -1055,6 +1055,91 @@
 							"body": "{\n    \"error\": \"rateLimited\",\n    \"message\": \"Rate limit exceeded. Please retry after 1669048687\"\n}"
 						}
 					]
+				},
+				{
+					"name": "https://pegaservice.sinarmas.co.id/prweb/PRRestService/ASMFWInternalWork/Data-Portal/ASMWebService",
+					"id": "9e074e8c-12e6-43db-8c6b-2151f61b20f9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NBWorkPage\": {\r\n        \"Quotation\": {\r\n            \"AccessCode\": \"100000001697\",\r\n            \"BusinessCode\": \"10002\",\r\n            \"BusinessName\": \"SIMAS RUMAH HEMAT PLUS\",\r\n            \"GroupPanel\": \"006\",\r\n            \"SRHPackage\": \"II\"\r\n        },\r\n        \"Customer_P\": {\r\n            \"pyFirstName\": \"CHOMSKY\",\r\n            \"pyLastName\": \"SAMOSIR\",\r\n            \"ASMGender\": \"1\",\r\n            \"ASMIDCard\": \"1234567812345687\"\r\n        },\r\n        \"Policy\": {\r\n            \"StartDateTime\": \"20260326T050000.000 GMT\",\r\n            \"EndDateTime\": \"20270326T050000.000 GMT\",\r\n            \"QQName\": \"CHOMSKY SAMOSIR\",\r\n            \"TheInsured\": \"CHOMSKY SAMOSIR\",\r\n            \"CustomerType\": \"1\",\r\n            \"IdTransaction\": \"ASMFIRE-05032026000000-2HOFPW38BeUosDssXi9I\",\r\n            \"StatusPenerbitan\": \"1\",\r\n            \"CaseID\": \"ASM-FW-GISFW-WORK NB-30614264\"\r\n        },\r\n        \"AddressList\": [\r\n            {\r\n                \"ASMAddress\": \"PERMATA DEPOK REGENCY CLUSTER RUBY BLOCK D23 NO.8 16439\",\r\n                \"ASMAddressType\": \"1\",\r\n                \"ASMTelfax\": [\r\n                    {\r\n                        \"TelfaxNumber\": \"082111543963\",\r\n                        \"TelfaxType\": \"1\"\r\n                    },\r\n                    {\r\n                        \"TelfaxNumber\": \"CHOMSKY.CLINTON@GMAIL.COM\",\r\n                        \"TelfaxType\": \"6\"\r\n                    }\r\n                ]\r\n            }\r\n        ],\r\n        \"PropertyList\": [\r\n            {\r\n                \"Construction\": \"I\",\r\n                \"IsMaterialDamage\": \"true\",\r\n                \"ObjectName\": \"Rumah\",\r\n                \"BuildingNo\": \"8\",\r\n                \"RoadName\": \"PERMATA DEPOK REGENCY CLUSTER RUBY BLOCK D23 NO.8\",\r\n                \"RoadType\": \"JL.\",\r\n                \"OccupationList\": [\r\n                    {\r\n                        \"OccupationCode\": \"2976\",\r\n                        \"OccupationName\": \"Dwelling houses not classified as shop houses (ruko) not exceeding 3 storeys\"\r\n                    }\r\n                ],\r\n                \"PropertyItemList\": [\r\n                    {\r\n                        \"PropertyItemCode\": \"10000091\",\r\n                        \"TSIObjectItem\": \"500000000\"\r\n                    },\r\n                    {\r\n                        \"PropertyItemCode\": \"10000148\",\r\n                        \"TSIObjectItem\": \"50000000\"\r\n                    }\r\n                ],\r\n                \"RiskLocation\": {\r\n                    \"ASMAddress\": \"PERMATA DEPOK REGENCY CLUSTER RUBY BLOCK D23 NO.8 16439\",\r\n                    \"ASMZipCode\": \"16439\"\r\n                },\r\n                \"BuildingConstruction\": {\r\n                    \"FloorType\": \"KELAS I\",\r\n                    \"NumberOfFloor\": \"1\",\r\n                    \"RoofType\": \"1\",\r\n                    \"WallType\": \"1\"\r\n                }\r\n            }\r\n        ]\r\n    }\r\n}{\r\n    \"NBWorkPage\": {\r\n        \"Quotation\": {\r\n            \"AccessCode\": \"100000001697\",\r\n            \"BusinessCode\": \"10002\",\r\n            \"BusinessName\": \"SIMAS RUMAH HEMAT PLUS\",\r\n            \"GroupPanel\": \"006\",\r\n            \"SRHPackage\": \"II\"\r\n        },\r\n        \"Customer_P\": {\r\n            \"pyFirstName\": \"CHOMSKY\",\r\n            \"pyLastName\": \"SAMOSIR\",\r\n            \"ASMGender\": \"1\"\r\n        },\r\n        \"Policy\": {\r\n            \"StartDateTime\": \"20260326T050000.000 GMT\",\r\n            \"EndDateTime\": \"20270326T050000.000 GMT\",\r\n            \"QQName\": \"CHOMSKY SAMOSIR\",\r\n            \"TheInsured\": \"CHOMSKY SAMOSIR\",\r\n            \"CustomerType\": \"1\",\r\n            \"IdTransaction\": \"ASMFIRE-05032026000000-2HOFPW38BeUosDssXi9I\",\r\n            \"StatusPenerbitan\": \"0\",\r\n            \"CaseID\": \"ASM-FW-GISFW-WORK NB-30614264\"\r\n        },\r\n        \"AddressList\": [\r\n            {\r\n                \"ASMTelfax\": [\r\n                    {\r\n                        \"TelfaxNumber\": \"082111543963\",\r\n                        \"TelfaxType\": \"1\"\r\n                    },\r\n                    {\r\n                        \"TelfaxNumber\": \"CHOMSKY.CLINTON@GMAIL.COM\",\r\n                        \"TelfaxType\": \"6\"\r\n                    }\r\n                ]\r\n            }\r\n        ],\r\n        \"PropertyList\": [\r\n            {\r\n                \"Construction\": \"I\",\r\n                \"IsMaterialDamage\": \"true\",\r\n                \"ObjectName\": \"Rumah\",\r\n                \"RoadName\": \"PERMATA DEPOK REGENCY CLUSTER RUBY BLOCK D23 NO.8\",\r\n                \"RoadType\": \"JL.\",\r\n                \"OccupationList\": [\r\n                    {\r\n                        \"OccupationCode\": \"2976\"\r\n                    }\r\n                ],\r\n                \"PropertyItemList\": [\r\n                    {\r\n                        \"PropertyItemCode\": \"10000091\",\r\n                        \"TSIObjectItem\": \"500000000\"\r\n                    },\r\n                    {\r\n                        \"PropertyItemCode\": \"10000148\",\r\n                        \"TSIObjectItem\": \"50000000\"\r\n                    }\r\n                ],\r\n                \"RiskLocation\": {\r\n                    \"ASMAddress\": \"PERMATA DEPOK REGENCY CLUSTER RUBY BLOCK D23 NO.8 16439\",\r\n                    \"ASMZipCode\": \"16439\"\r\n                }\r\n            }\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://pegaservice.sinarmas.co.id/prweb/PRRestService/ASMFWInternalWork/Data-Portal/ASMWebService"
+					},
+					"response": [
+						{
+							"id": "6046f668-bce7-49bc-a2da-1e531ba217af",
+							"name": "https://pegaservice.sinarmas.co.id/prweb/PRRestService/ASMFWInternalWork/Data-Portal/ASMWebService",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"NBWorkPage\": {\r\n        \"Quotation\": {\r\n            \"AccessCode\": \"100000001697\",\r\n            \"BusinessCode\": \"10002\",\r\n            \"BusinessName\": \"SIMAS RUMAH HEMAT PLUS\",\r\n            \"GroupPanel\": \"006\",\r\n            \"SRHPackage\": \"II\"\r\n        },\r\n        \"Customer_P\": {\r\n            \"pyFirstName\": \"CHOMSKY\",\r\n            \"pyLastName\": \"SAMOSIR\",\r\n            \"ASMGender\": \"1\",\r\n            \"ASMIDCard\": \"1234567812345687\"\r\n        },\r\n        \"Policy\": {\r\n            \"StartDateTime\": \"20260326T050000.000 GMT\",\r\n            \"EndDateTime\": \"20270326T050000.000 GMT\",\r\n            \"QQName\": \"CHOMSKY SAMOSIR\",\r\n            \"TheInsured\": \"CHOMSKY SAMOSIR\",\r\n            \"CustomerType\": \"1\",\r\n            \"IdTransaction\": \"ASMFIRE-05032026000000-2HOFPW38BeUosDssXi9I\",\r\n            \"StatusPenerbitan\": \"1\",\r\n            \"CaseID\": \"ASM-FW-GISFW-WORK NB-30614264\"\r\n        },\r\n        \"AddressList\": [\r\n            {\r\n                \"ASMAddress\": \"PERMATA DEPOK REGENCY CLUSTER RUBY BLOCK D23 NO.8 16439\",\r\n                \"ASMAddressType\": \"1\",\r\n                \"ASMTelfax\": [\r\n                    {\r\n                        \"TelfaxNumber\": \"082111543963\",\r\n                        \"TelfaxType\": \"1\"\r\n                    },\r\n                    {\r\n                        \"TelfaxNumber\": \"CHOMSKY.CLINTON@GMAIL.COM\",\r\n                        \"TelfaxType\": \"6\"\r\n                    }\r\n                ]\r\n            }\r\n        ],\r\n        \"PropertyList\": [\r\n            {\r\n                \"Construction\": \"I\",\r\n                \"IsMaterialDamage\": \"true\",\r\n                \"ObjectName\": \"Rumah\",\r\n                \"BuildingNo\": \"8\",\r\n                \"RoadName\": \"PERMATA DEPOK REGENCY CLUSTER RUBY BLOCK D23 NO.8\",\r\n                \"RoadType\": \"JL.\",\r\n                \"OccupationList\": [\r\n                    {\r\n                        \"OccupationCode\": \"2976\",\r\n                        \"OccupationName\": \"Dwelling houses not classified as shop houses (ruko) not exceeding 3 storeys\"\r\n                    }\r\n                ],\r\n                \"PropertyItemList\": [\r\n                    {\r\n                        \"PropertyItemCode\": \"10000091\",\r\n                        \"TSIObjectItem\": \"500000000\"\r\n                    },\r\n                    {\r\n                        \"PropertyItemCode\": \"10000148\",\r\n                        \"TSIObjectItem\": \"50000000\"\r\n                    }\r\n                ],\r\n                \"RiskLocation\": {\r\n                    \"ASMAddress\": \"PERMATA DEPOK REGENCY CLUSTER RUBY BLOCK D23 NO.8 16439\",\r\n                    \"ASMZipCode\": \"16439\"\r\n                },\r\n                \"BuildingConstruction\": {\r\n                    \"FloorType\": \"KELAS I\",\r\n                    \"NumberOfFloor\": \"1\",\r\n                    \"RoofType\": \"1\",\r\n                    \"WallType\": \"1\"\r\n                }\r\n            }\r\n        ]\r\n    }\r\n}{\r\n    \"NBWorkPage\": {\r\n        \"Quotation\": {\r\n            \"AccessCode\": \"100000001697\",\r\n            \"BusinessCode\": \"10002\",\r\n            \"BusinessName\": \"SIMAS RUMAH HEMAT PLUS\",\r\n            \"GroupPanel\": \"006\",\r\n            \"SRHPackage\": \"II\"\r\n        },\r\n        \"Customer_P\": {\r\n            \"pyFirstName\": \"CHOMSKY\",\r\n            \"pyLastName\": \"SAMOSIR\",\r\n            \"ASMGender\": \"1\"\r\n        },\r\n        \"Policy\": {\r\n            \"StartDateTime\": \"20260326T050000.000 GMT\",\r\n            \"EndDateTime\": \"20270326T050000.000 GMT\",\r\n            \"QQName\": \"CHOMSKY SAMOSIR\",\r\n            \"TheInsured\": \"CHOMSKY SAMOSIR\",\r\n            \"CustomerType\": \"1\",\r\n            \"IdTransaction\": \"ASMFIRE-05032026000000-2HOFPW38BeUosDssXi9I\",\r\n            \"StatusPenerbitan\": \"0\",\r\n            \"CaseID\": \"ASM-FW-GISFW-WORK NB-30614264\"\r\n        },\r\n        \"AddressList\": [\r\n            {\r\n                \"ASMTelfax\": [\r\n                    {\r\n                        \"TelfaxNumber\": \"082111543963\",\r\n                        \"TelfaxType\": \"1\"\r\n                    },\r\n                    {\r\n                        \"TelfaxNumber\": \"CHOMSKY.CLINTON@GMAIL.COM\",\r\n                        \"TelfaxType\": \"6\"\r\n                    }\r\n                ]\r\n            }\r\n        ],\r\n        \"PropertyList\": [\r\n            {\r\n                \"Construction\": \"I\",\r\n                \"IsMaterialDamage\": \"true\",\r\n                \"ObjectName\": \"Rumah\",\r\n                \"RoadName\": \"PERMATA DEPOK REGENCY CLUSTER RUBY BLOCK D23 NO.8\",\r\n                \"RoadType\": \"JL.\",\r\n                \"OccupationList\": [\r\n                    {\r\n                        \"OccupationCode\": \"2976\"\r\n                    }\r\n                ],\r\n                \"PropertyItemList\": [\r\n                    {\r\n                        \"PropertyItemCode\": \"10000091\",\r\n                        \"TSIObjectItem\": \"500000000\"\r\n                    },\r\n                    {\r\n                        \"PropertyItemCode\": \"10000148\",\r\n                        \"TSIObjectItem\": \"50000000\"\r\n                    }\r\n                ],\r\n                \"RiskLocation\": {\r\n                    \"ASMAddress\": \"PERMATA DEPOK REGENCY CLUSTER RUBY BLOCK D23 NO.8 16439\",\r\n                    \"ASMZipCode\": \"16439\"\r\n                }\r\n            }\r\n        ]\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://pegaservice.sinarmas.co.id/prweb/PRRestService/ASMFWInternalWork/Data-Portal/ASMWebService"
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Undertow/1"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "JSESSIONID=igVhp9uT1kLQ5OD5dKwSThrQzMPkKHlwsyzY_yDl.asmpegacore02; path=/prweb; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:00 GMT"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "SERVERID=prdasm-10283|acYSm|acYSm; path=/"
+								},
+								{
+									"key": "Server",
+									"value": "JBoss-EAP/7"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 27 Mar 2026 05:16:07 GMT"
+								},
+								{
+									"key": "access-control-allow-origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json;charset=UTF-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "315"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"HTTPCode\": \"400\",\n    \"IdTransaction\": \"ASMFIRE-05032026000000-2HOFPW38BeUosDssXi9I\",\n    \"CaseID\": \"ASM-FW-GISFW-WORK NB-30614264\",\n    \"StatusPenerbitan\": \"1\",\n    \"ConID\": \"\",\n    \"FeedbackMessage\": \" CoverageList Object ke .  tidak boleh kosong \\nObject: BUILDING dengan kode 10000091 tidak dapat Auto Accept. Di template: .Object: HOUSEHOLD CONTENTS dengan kode 10000148 tidak dapat Auto Accept. Di template: .Object: BUILDING dengan kode 10000091 tidak dapat Auto Accept. Di template: .Object: HOUSEHOLD CONTENTS dengan kode 10000148 tidak dapat Auto Accept. Di template: .Template PKS harus ada dalam mapping,  CoverageList Object ke .  tidak boleh kosong \\nObject: BUILDING dengan kode 10000091 tidak dapat Auto Accept. Di template: .Object: HOUSEHOLD CONTENTS dengan kode 10000148 tidak dapat Auto Accept. Di template: .Object: BUILDING dengan kode 10000091 tidak dapat Auto Accept. Di template: .Object: HOUSEHOLD CONTENTS dengan kode 10000148 tidak dapat Auto Accept. Di template: .Template PKS harus ada dalam mapping, \"\n}"
+						}
+					]
 				}
 			],
 			"id": "e3a0e859-87f6-4196-be55-4874b167a062",
